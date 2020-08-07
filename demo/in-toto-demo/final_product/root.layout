@@ -1,0 +1,221 @@
+{
+ "signatures": [
+  {
+   "keyid": "1e9c0a054bc4c250ed9648e1e4d92f7ab3e1c30791cdf92e0ec8215a403525c7",
+   "sig": "963e08f96ba0d2cae2241ab372bb8b547c7555a7555247a40f421e0c2a0a65407fb7d13bf1404929118cafee7d64cd69f0e92efa6dd2d0a7bec0d1b4f09b71d82163eac7211905863b56543f2841fb9a86649e04c25f701743e2ef91d8d46d7b7e6356d170721bd18c3b0e30c0eb6d7349d9a316071679b71640ac834d13a297178cedbb58b74d2391283992972b9a1c1b087f83cdb4356c9498225f25018350b7185f81c9c21af878d2d7593ecb44f168a8e9102bda75f91f802259d9c59e5b5bfaad0e4868661d307969d2201c94c8e9c0515c148f1d2d748899a896508f27160e031c20a1adb334ddc665c17aefd782982a012d47391c7415f23b42329d4ebe71382bfe0d320da8d69bf957e453ae49bd134f4d451ea290d1581b2a31cf22db61f65822279d557100f9019f42dc429b314488a759d3d528f10047f5c591c32f67615ce408fbc96d2d52be30febcbd92fb05f231b947897796bf4f5886ab339318de43532d6161758e8663fed5c76e7007fa7fe5ad39e812081e3a9de4a966"
+  }
+ ],
+ "signed": {
+  "_type": "layout",
+  "expires": "2020-08-24T19:37:55Z",
+  "inspect": [
+   {
+    "_type": "inspection",
+    "expected_materials": [
+     [
+      "MATCH",
+      "published.tar.gz",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "package"
+     ],
+     [
+      "ALLOW",
+      ".keep"
+     ],
+     [
+      "ALLOW",
+      "niels.pub"
+     ],
+     [
+      "ALLOW",
+      "root.layout"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "expected_products": [
+     [
+      "MATCH",
+      "published/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "publish"
+     ],
+     [
+      "ALLOW",
+      "published/app.*"
+     ],
+     [
+      "ALLOW",
+      "published.tar.gz"
+     ],
+     [
+      "ALLOW",
+      ".keep"
+     ],
+     [
+      "ALLOW",
+      "niels.pub"
+     ],
+     [
+      "ALLOW",
+      "root.layout"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "name": "untar",
+    "run": [
+     "tar",
+     "xzf",
+     "published.tar.gz"
+    ]
+   }
+  ],
+  "keys": {
+   "4c38db6b34d2b2ec3ec7e38a32073ba0c4293539f76e7ec0749de50449f31e10": {
+    "keyid": "4c38db6b34d2b2ec3ec7e38a32073ba0c4293539f76e7ec0749de50449f31e10",
+    "keyid_hash_algorithms": [
+     "sha256",
+     "sha512"
+    ],
+    "keytype": "rsa",
+    "keyval": {
+     "private": "",
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA0QxxICcdwQrOKvzSgFwj\nkIiKB3zeqU/c2MQWxj7Bng49JpECRkRTtJw4+HOrDs7h2y1FG2VxQd+Ul1mw/unL\nJ9rse6z7LdLkRFFnG0FOXecEhvhFomr4D2+vzNEoj5aLB+rTO7YvnjaVAgPvoKXm\ncF8P0n+AAEYi7XF/9f6zUBv2TXFXWK9Ab+9Yag+Fdu7AN/yfh2qrBQNMkHTh0XCG\nEMn3JEwljfK6HC6dg4IVLGcC5Esu+jeNCXQYVNFkbq+2k73zI6q8nM5/xR5PafQq\npxqoEIu5P0Kb347/jJqTRhPBOe6BqL7HUMTO8A5XJntDc1ZJ2vlYXKVUYaTpt32o\nKC5GxceWBRrx9w3EJb3byuPcybdjFl6hsos5c7rFTlB6oSAKAn4DBQ30UgN65nSH\nmdTRI2OBAVLAF1OFajWX9sWV29+hvLrWZaDHY/mgDsJoDWhDvVuWSPmD/s3lfI2f\nkid2zJ2qPvsWmVr7DWwMr8BT10mNybnJkX0Qdx8jYzaRAgMBAAE=\n-----END PUBLIC KEY-----"
+    },
+    "scheme": "rsassa-pss-sha256"
+   },
+   "981b688f2cb32c8fe2d53153499188cb337103050e30e8b1a9193309ebabc026": {
+    "keyid": "981b688f2cb32c8fe2d53153499188cb337103050e30e8b1a9193309ebabc026",
+    "keyid_hash_algorithms": [
+     "sha256",
+     "sha512"
+    ],
+    "keytype": "rsa",
+    "keyval": {
+     "private": "",
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA201Fp+ZPf9bUNrtBVncl\nyizH0OZxQtKqIze920IZlHt6zPUDN4emuESxk26WRpihS5V13ky6IaterQJmqcoA\nD5hhsjGGL4oGz0UW0E+M92SiuylhKl8NvNdM+5eiwjPnes92KQsfmJiab55RNWbB\nA3VTKh+9OF/eS1m0t67elAxSDc8WNmiXGxcmWvD6jhFxXk/Y6P2SlGPXDxs7NGUA\ndWijicJ9Yj+ocNXMVDVDZ8y3O1++sSE5HqbMfXkyxOe7WAZl4Cwbb0c31rqK1niz\nl39ENd3QQxFSUKnPobRj9NHFirm9YAAFA455YK4RhfcMUAcbywsd3jiJfieoYJJG\nZdanAQmbaCWlTVcxi6CjZazs6QikdjiOoCoM3cAgqvL6wzNfT/HJO0bE6v/YmAOp\nXf5Y1PUq2ycBuys7XFVt8z9eXwA2x/IiAMfqIvvGFqzUcUemqUYtdtFzMkYempKl\ntufOZqfT3t0dnalgAqpf3z1/WzySGgrh1A4V0d0nmFLvAgMBAAE=\n-----END PUBLIC KEY-----"
+    },
+    "scheme": "rsassa-pss-sha256"
+   }
+  },
+  "readme": "",
+  "steps": [
+   {
+    "_type": "step",
+    "expected_command": [
+     "dotnet",
+     "new",
+     "console",
+     "-n",
+     "app"
+    ],
+    "expected_materials": [],
+    "expected_products": [
+     [
+      "CREATE",
+      "app/Program.cs"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "name": "create",
+    "pubkeys": [
+     "981b688f2cb32c8fe2d53153499188cb337103050e30e8b1a9193309ebabc026"
+    ],
+    "threshold": 1
+   },
+   {
+    "_type": "step",
+    "expected_command": [
+     "dotnet",
+     "publish",
+     "-o",
+     "published",
+     "app"
+    ],
+    "expected_materials": [
+     [
+      "MATCH",
+      "app/Program.cs",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "create"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "expected_products": [
+     [
+      "CREATE",
+      "published/app"
+     ],
+     [
+      "CREATE",
+      "published/app.*"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "name": "publish",
+    "pubkeys": [
+     "4c38db6b34d2b2ec3ec7e38a32073ba0c4293539f76e7ec0749de50449f31e10"
+    ],
+    "threshold": 1
+   },
+   {
+    "_type": "step",
+    "expected_command": [
+     "tar",
+     "-zcvf",
+     "published.tar.gz",
+     "published"
+    ],
+    "expected_materials": [
+     [
+      "MATCH",
+      "published/*",
+      "WITH",
+      "PRODUCTS",
+      "FROM",
+      "publish"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "expected_products": [
+     [
+      "CREATE",
+      "published.tar.gz"
+     ],
+     [
+      "DISALLOW",
+      "*"
+     ]
+    ],
+    "name": "package",
+    "pubkeys": [
+     "4c38db6b34d2b2ec3ec7e38a32073ba0c4293539f76e7ec0749de50449f31e10"
+    ],
+    "threshold": 1
+   }
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "signatures": [],
+ "signed": {
+  "_type": "link",
+  "byproducts": {
+   "return-value": 0,
+   "stderr": "",
+   "stdout": ""
+  },
+  "command": [
+   "tar",
+   "xzf",
+   "published.tar.gz"
+  ],
+  "environment": {},
+  "materials": {
+   ".keep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "niels.pub": {
+    "sha256": "171a8f790165e1fab04be28500e01e75910b7da18f8c522953d38fe967a37893"
+   },
+   "published.tar.gz": {
+    "sha256": "d300c585584679cc8b91457fdc93d1f8f3d3745aa51eed759b74d1f0620cbd95"
+   },
+   "root.layout": {
+    "sha256": "29501243a10fb1b29db5a14d424350df83834c7187e3aa46d949e9559be94323"
+   }
+  },
+  "name": "untar",
+  "products": {
+   ".keep": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+   },
+   "niels.pub": {
+    "sha256": "171a8f790165e1fab04be28500e01e75910b7da18f8c522953d38fe967a37893"
+   },
+   "published.tar.gz": {
+    "sha256": "d300c585584679cc8b91457fdc93d1f8f3d3745aa51eed759b74d1f0620cbd95"
+   },
+   "published/app.deps.json": {
+    "sha256": "30bcceeaf0abeaecd2b1c5d9d6db8a23d9d893786021e4b32591376aaca47c15"
+   },
+   "published/app.dll": {
+    "sha256": "1d7b9bd6bbca7f914487e511b3b00e8bb7bfa07929df8aedd9241463b91f2522"
+   },
+   "published/app.pdb": {
+    "sha256": "0e4ef2bbe394917c4f799ef9950673b042a7d994864607d8fdde0815cdcdb544"
+   },
+   "published/app.runtimeconfig.json": {
+    "sha256": "938ea41c4137c80f51f6f49bc6dbccace3bcf5f9277c9e41a4b8daad8f3527a2"
+   },
+   "root.layout": {
+    "sha256": "29501243a10fb1b29db5a14d424350df83834c7187e3aa46d949e9559be94323"
+   }
+  }
+ }
+}

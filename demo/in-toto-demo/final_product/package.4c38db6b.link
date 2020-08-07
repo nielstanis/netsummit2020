@@ -1,0 +1,34 @@
+{
+ "signatures": [
+  {
+   "keyid": "4c38db6b34d2b2ec3ec7e38a32073ba0c4293539f76e7ec0749de50449f31e10",
+   "sig": "3c76171a1706da3d08402505c19c7f48c67f6e7916df16f082375ce4da69da3221a84c973532a8fd40d8a2d5d76e1bece045d31231885b0936fcad401ec79b65e4b3874cfef104813fb024e467e909ef7ca84fd27e343cc21c387027c77f5c13dc3153506d81f8cbf0ba4252e4db0673422cc23d43ad220181bdb41f5d3fe83bf50cd8de271ed61a1c47f7f96cd3f9b1099997e837efabc8c923ec6cbaa016e55b0990f31c979394e9465ae23e0fe2685b686804e0a628e3931e4d6d1995cf720d78159b64c8bc18616a5ffa0b4f257d096ded36f6ff5db3f329023374af9b181247a962b77039938b1e2a83d0278ed0f1870bd6c431f9606041b623704b1b47493574fbf82aaec81776e26bc53b46b0729461daa51c7ba24c4aa47a9bf4d928224b967b55ded2f7c372c6e844c97ae75307bebaf3fdac0172c21b7ac81e8040ead79cfaaf2cf6df33e6f715f886f267a9ef99919065e054f4d5f31615ef9beb228585fae9d669e6a79cc27c9db32d2e8a471dbc7bff2a20afe30df4575b3f7d"
+  }
+ ],
+ "signed": {
+  "_type": "link",
+  "byproducts": {},
+  "command": [],
+  "environment": {},
+  "materials": {
+   "published/app.deps.json": {
+    "sha256": "30bcceeaf0abeaecd2b1c5d9d6db8a23d9d893786021e4b32591376aaca47c15"
+   },
+   "published/app.dll": {
+    "sha256": "f75e2c0469cdfacaa42f6a941854033357cd3d040033d762d19245a2f1705173"
+   },
+   "published/app.pdb": {
+    "sha256": "d1090bd19b46f724e7b863201aef790f18f17d99264ce0a7756347c363f596a2"
+   },
+   "published/app.runtimeconfig.json": {
+    "sha256": "938ea41c4137c80f51f6f49bc6dbccace3bcf5f9277c9e41a4b8daad8f3527a2"
+   }
+  },
+  "name": "package",
+  "products": {
+   "published.tar.gz": {
+    "sha256": "01534195f40192e18312f5061c89f00e10bfdf3ca0416e2653d32f770772d7aa"
+   }
+  }
+ }
+}
